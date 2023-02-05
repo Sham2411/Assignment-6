@@ -1,9 +1,9 @@
 import json
-employee_data = [{"Name":"Sham","DOB":"11/09/1996","Height":"5'5","City":"Kakinada","State":"Andhra"}, 
-                 {"Name":"Gousiya","DOB":"24/09/1996","Height":"5'2","City":"Gokak","State":"Karnataka"},
-                 {"Name":"Lipsa","DOB":"01/08/1998","Height":"5'11","City":"Bargarh","State":"Odisha"},
-                 {"Name":"Kaki","DOB":"11/09/2000","Height":"6","City":"Chennai","State":"Tamil Nadu"},
-                 {"Name":"Vamsi","DOB":"25/03/1997","Height":"5'4","City":"Hyderabad","State":"Telangana"}]
+employee_data = [{"Name":"S","DOB":"11/09/1996","Height":"5'5","City":"Kakinada","State":"Andhra"}, 
+                 {"Name":"G","DOB":"24/09/1996","Height":"5'2","City":"Gokak","State":"Karnataka"},
+                 {"Name":"L","DOB":"01/08/1998","Height":"5'11","City":"Bargarh","State":"Odisha"},
+                 {"Name":"K","DOB":"11/09/2000","Height":"6","City":"Chennai","State":"Tamil Nadu"},
+                 {"Name":"V","DOB":"25/03/1997","Height":"5'4","City":"Hyderabad","State":"Telangana"}]
 
 with open("employee.json", "w") as f:
     json.dump(employee_data, f)
